@@ -14,3 +14,4 @@ git push -u origin [nom de la branche] : Push d'une branche spécifique
 touch [nom du fichier] : créer un fichier
 git branch -d [nom de la branche] : suppression de la branche
 pwd : Voir où est le répository
+cd : Déplacer le pointeur
