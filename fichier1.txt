@@ -1,0 +1,4 @@
+Git init : Initialiser un répository
+Git Status : Liste tout les fichier qui doivent être commit et leurs états
+Git Add . : Ajoute dans le staging area  ce qu'il y a au pointeur
+Git commit -m "blablabla" : commit en donnant un nom au commit
