@@ -7,3 +7,9 @@ cat [nom du fichier] : lis les informations du fichier
 Git commit -a : pour directement add et commit en même temps
 Git checkout [nom de branche] : Change le pointeur de branche
 Git merge [nom de branche] : Ajoute dans cette branche, le contenu de l'autre
+Git fetch : Actualise le local par rapport à Github
+Git pull : Récupère les fichiers de Github
+Git push : Envoie les fichiers sur Github
+git push -u origin [nom de la branche] : Push d'une branche spécifique
+touch [nom du fichier] : créer un fichier
+git branch -d [nom de la branche] : suppression de la branche
