@@ -25,4 +25,6 @@ Git branch : Liste toutes les branches dans le dépôt actuel.
 Git branch [nom de branche] : Pour créer une nouvelle branche
 Git branch -d [nom de branche] : Pour supprimer la branche
 wq : commande pour sortir
+git tag [nom du tag] : Ajoute un tag
 git push --tags : push les tags
+git push -u origin [Nom de la branche créer en local à ajouté en remote]
