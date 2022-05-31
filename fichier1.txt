@@ -1,6 +1,7 @@
 Git init : Initialiser un répository
 Git Status : Liste tout les fichier qui doivent être commit et leurs états
 Git Add . : Ajoute dans le staging area  ce qu'il y a au pointeur
+Git Add [nomdufichier] : Ajoute un fichier précis en  staging area
 Git commit -m "blablabla" : commit en donnant un nom au commit
 ls -a : Affiche les fichiers (même les cacher)
 cat [nom du fichier] : lis les informations du fichier
@@ -15,3 +16,10 @@ touch [nom du fichier] : créer un fichier
 git branch -d [nom de la branche] : suppression de la branche
 pwd : Voir où est le répository
 cd : Déplacer le pointeur
+Git reset : retire le fichier en staging area, mais préserve le contenu
+Git reset commit : Pour annuler tous les commit après le commit spécifié et préserve les modifications localement.
+Git reset hard : Pour supprimer tout l’historique et revient au commit spécifié.
+Git rm [nom du fichier] : Pour supprimer le fichier de votre répertoire de travail et stage la suppression.
+Git branch : Liste toutes les branches dans le dépôt actuel.
+Git branch [nom de branche] : Pour créer une nouvelle branche
+Git branch -d [nom de branche] : Pour supprimer la branche
