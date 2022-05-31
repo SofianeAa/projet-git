@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo Ok ok
+echo Ok
