@@ -7,6 +7,7 @@ ls -a : Affiche les fichiers (même les cacher)
 cat [nom du fichier] : lis les informations du fichier
 Git commit -a : pour directement add et commit en même temps
 Git checkout [nom de branche] : Change le pointeur de branche
+Git checkout -b [nom de la branche] : Pour créer une nouvelle branche et switcher directement à celle-ci.
 Git merge [nom de branche] : Ajoute dans cette branche, le contenu de l'autre
 Git fetch : Actualise le local par rapport à Github
 Git pull : Récupère les fichiers de Github
@@ -23,3 +24,5 @@ Git rm [nom du fichier] : Pour supprimer le fichier de votre répertoire de trav
 Git branch : Liste toutes les branches dans le dépôt actuel.
 Git branch [nom de branche] : Pour créer une nouvelle branche
 Git branch -d [nom de branche] : Pour supprimer la branche
+wq : commande pour sortir
+git push --tags : push les tags
